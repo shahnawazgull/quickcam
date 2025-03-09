@@ -58,7 +58,7 @@ const Landing = () => {
               <path d="M46.6666 37.3333L74.6666 56L46.6666 74.6667V37.3333Z" stroke="#EEEEEE" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg> */}
             <video
-              src="/assets/video1.mp4"
+              src="https://quickcampaignvideos.s3.us-east-1.amazonaws.com/hero-video.mp4"
               playsInline
               controls
             ></video>
@@ -84,7 +84,7 @@ const Landing = () => {
 
           <video
             className="old-way-video"
-            src="/assets/video2.mp4"
+            src="https://quick-campaigns.s3.eu-west-2.amazonaws.com/video2.mp4"
             autoPlay
             loop
             muted
@@ -108,7 +108,7 @@ const Landing = () => {
           </p>
           <video
             className="old-way-video"
-            src="/assets/video3.mp4"
+            src="https://quick-campaigns.s3.eu-west-2.amazonaws.com/video3.mp4"
             autoPlay
             loop
             muted
@@ -195,7 +195,7 @@ const Landing = () => {
               <path d="M46.6666 37.3333L74.6666 56L46.6666 74.6667V37.3333Z" stroke="#EEEEEE" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg> */}
               <video
-                src="/assets/video4.mov"
+                src="https://quickcampaignvideos.s3.us-east-1.amazonaws.com/how-to-video.mp4"
                 playsInline
                 controls
                 muted
@@ -274,7 +274,7 @@ const Landing = () => {
                 Test the software risk-free before committing.
               </div>
             </div>
-            <Link href="/accounts/signup"><button className="price-start-btn">Get Started</button></Link>
+            <a href="/accounts/signup"><button className="price-start-btn">Get Started</button></a>
           </div>
           <div className="price-card popular-plan">
             <div className="popular-plan-wrapper">
@@ -321,7 +321,7 @@ const Landing = () => {
                 Receive dedicated support for ad management.
               </div>
             </div>
-            <Link href="/accounts/signup"><button className="price-start-btn">Get Started</button></Link>
+            <a href="/accounts/signup"><button className="price-start-btn">Get Started</button></a>
 
           </div>
           <div className="price-card popular-plan enterprise-plan">
@@ -367,7 +367,7 @@ const Landing = () => {
                 Receive dedicated support for ad management.
               </div>
             </div>
-            <Link href="/accounts/signup"><button className="price-start-btn">Get Started</button></Link>
+            <a href="/accounts/signup"><button className="price-start-btn">Get Started</button></a>
           </div>
         </div>
       </div>

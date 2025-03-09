@@ -58,12 +58,12 @@ const SidebarWithHeader = () => {
                         <Image src="/assets/no-profile-picture-15257.svg" alt="Profile" width={40} height={40} id="profile" />
                         <div className={`dropdown-menu ${profileDropdownOpen ? 'open' : ''}`}>
                             <div className="dropdown-item1">Active Ad Accounts: 10</div>
-                            <Link href="/profile_module" className="linktag">
+                            <a href="/profile_module" className="linktag">
                                 <div className="dropdown-item">Manage Subscription</div>
-                            </Link>
-                            <Link href="/" className="linktag">
+                            </a>
+                            <a href="/" className="linktag">
                                 <div className="dropdown-item">Log Out</div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </nav>
@@ -118,9 +118,9 @@ const SidebarWithHeader = () => {
                     )}
                 </div>
                 <div className="formargin">
-                    <Link href="/pricing" className="linktag upgradeButton">
+                    <a href="/pricing" className="linktag upgradeButton">
                         Upgrade Plan
-                    </Link>
+                    </a>
                     <div className="footer">10 Ad accounts on enterprise plan</div>
                 </div>
             </div>

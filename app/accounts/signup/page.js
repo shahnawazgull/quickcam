@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import ReCAPTCHA from "react-google-recaptcha";
-// import "../login/Login.css";
+import "/public/Styles/Login.css";
 const RegisterPage = () => {
   const [formData, setFormData] = useState({
     name: "",

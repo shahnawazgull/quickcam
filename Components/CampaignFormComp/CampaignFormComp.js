@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react";
+import '/public/styles/CampaignForm.module.css'
 import Image from "next/image";
 
 const CampaignFormComp = () => {
