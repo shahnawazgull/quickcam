@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "/public/Styles/ProfileModule.css";
 import "/public/Styles/side-menu.css";
 import "/public/Styles/style.css";
+import "/public/Styles/Pricing.css";
 import Header from "@/Components/Header/Header";
 import Link from "next/link";
 

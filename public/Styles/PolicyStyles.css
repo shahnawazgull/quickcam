@@ -23,9 +23,12 @@ body {
     z-index: 0;
     height: 100vh;
 }
-
+#terms-of-service{
+    background-color: #fff;
+}
 .content {
     flex: 1;
+    background-color: #fff;
     padding: 40px 150px;
     /* Add padding for content */
     padding-bottom: 120px;

@@ -25,11 +25,11 @@ const Footer = () => {
           <div>
             <p>Help</p>
             <ul>
-              <li><a href="/Terms/TermsAndCond">Terms & Conditions</a></li>
-              <li><a href="/Terms/PrivacyPolicy">Privacy Policy</a></li>
-              <li><a href="/Terms/RefundPolicy">Refund Policy</a></li>
-              <li><a href="/Terms/DeletionPolicy">Data Deletion Policy</a></li>
-              <li><a href="/Terms/CookiesPolicy">Cookies Policy</a></li>
+              <li><Link href="/Terms/TermsAndCond">Terms & Conditions</Link></li>
+              <li><Link href="/Terms/PrivacyPolicy">Privacy Policy</Link></li>
+              <li><Link href="/Terms/RefundPolicy">Refund Policy</Link></li>
+              <li><Link href="/Terms/DeletionPolicy">Data Deletion Policy</Link></li>
+              <li><Link href="/Terms/CookiesPolicy">Cookies Policy</Link></li>
             </ul>
           </div>
         </div>

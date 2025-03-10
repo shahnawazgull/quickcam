@@ -58,7 +58,7 @@ const LoginPage = () => {
         });
     };
 
-    // Validate onBlur (when the user moves to another field)
+    // Validate onBlur
     const handleBlur = (e) => {
         validateField(e.target.name, e.target.value);
     };
@@ -71,11 +71,14 @@ const LoginPage = () => {
         validateField("email", formData.email);
         validateField("password", formData.password);
 
-        // Ensure no errors exist before submitting
-        if (!errors.email && !errors.password && formData.recaptcha) {
+        // Check if there are no errors and reCAPTCHA is verified (if enabled)
+        if (!errors.email && !errors.password && (!formData.recaptcha || formData.recaptcha)) {
             console.log("Form Data Submitted:", formData);
+            // Simulate a login success (replace with actual login logic if needed)
+            // After successful login, reload the page
+            window.location.href = "/main"; // Redirects and reloads the page
+            // Alternatively, use window.location.reload() after navigation if needed
         }
-        
     };
 
     return (
@@ -138,7 +141,7 @@ const LoginPage = () => {
                         <span className="remember-me-text">Remember me</span>
                     </div>
 
-                    {/* Google reCAPTCHA */}
+                    {/* Google reCAPTCHA (uncomment and add your site key if needed) */}
                     {/* <ReCAPTCHA
                         sitekey="YOUR_GOOGLE_RECAPTCHA_SITE_KEY"
                         onChange={(value) => setFormData({ ...formData, recaptcha: value })}
@@ -146,9 +149,9 @@ const LoginPage = () => {
                     {!formData.recaptcha && <p className="error">Please verify reCAPTCHA</p>} */}
 
                     {/* Submit Button */}
-                    <Link href="/main"><button type="submit" className="option-button">
+                    <button type="submit" className="option-button">
                         Sign In
-                    </button></Link>
+                    </button>
                 </form>
 
                 {/* Links */}
