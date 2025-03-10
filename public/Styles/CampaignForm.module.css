@@ -626,6 +626,9 @@
     margin-right: 10px;
     /* Add some spacing between items in the row */
   }
+  .formContainer{
+    margin-left: 0;
+  }
 }
 
 .platformContainer.disabled {

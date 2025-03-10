@@ -41,6 +41,7 @@
     position: fixed;
     top: 86%;
     left: 0;
+    width: 240px;
 }
 .open {
     transform: translateX(0);

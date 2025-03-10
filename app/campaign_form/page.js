@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import styles from "/public/Styles/CampaignForm.module.css"; // Adjust path as necessary
+import styles from "/public/Styles/CampaignForm.module.css";
 import Header from "@/Components/Header/Header";
 import CampaignFormComp from "@/Components/CampaignFormComp/CampaignFormComp";
 import "/public/Styles/side-menu.css"
